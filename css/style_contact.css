@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat+Brush&display=swap');
+
+form {
+    margin: 70px 10%;
+     
+}
+
+input, textarea {
+    margin-bottom: 20px;
+    margin-top: 3px;
+    resize: vertical;
+    /* background-color:#fbf7df;    */
+}
+
+input {
+    width: 300px;
+}
+
+#btn-envoyer {
+    background-color: #EDFF91;
+    border-radius: 30px;
+    border: 1px solid ;
+    padding: 5px 15px;
+    font-size: 30px;
+    cursor:pointer;
+    font-family: Caveat Brush;
+    color: #6a7436;   
+}
+
+#champs-requis {
+    font-size: 20px;
+}
+

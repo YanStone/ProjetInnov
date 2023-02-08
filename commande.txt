@@ -1,0 +1,5 @@
+git remote set-url origin git@github.com:YanStone/ProjetInnov.git
+
+git remote set-url origin git@github.com/YanStone/ProjetInnov
+
+git@github.com:YanStone/ProjetInnov.git

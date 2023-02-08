@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/style_solutions.css" type="text/css">
+    <link rel="stylesheet" href="css/style_contact.css" type="text/css">
+    <link rel="icon" href="css/images/logo.png">
+    <script defer src="script/app.js"></script>
+    <title>Contact</title>
+</head>
+<body>
+    <div id="navbar" class="top">
+        <ul>
+            <a href="index.html">
+                <li class="passive">Home</li>
+            </a>
+            <a>
+            <li class="active">Contact</li>
+            </a>
+            <a href="a_propos.html">
+                <li class="passive">A propos</li>
+            </a>
+        </ul>
+    </div>
+    <h1 class="b">Contact</h1>
+    <form action="https://formsubmit.co/yannn.legendre@gmail.com" method="POST" class="b">
+        <input type="hidden" name="_subject" value="New contact from your energy site !">
+        <input type="hidden" name="_template" value="bxox">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://zesty-gingersnap-5a262b.netlify.app/merci.html">
+
+        <label id="champs-requis">* :  champs requis</label><br>
+        <br>
+        <label for="nom">Nom</label><br>
+        <input type="text" name="nom" placeholder="">
+        <br>
+        <label for="prenom">Prénom</label><br>
+        <input type="text" name="prenom" placeholder="">
+        <br>
+        <label for="email">Adresse mail *</label><br>
+        <input type="email" name="email" placeholder="" required>
+        <br>
+        <label for="quartier">Quartier / ville</label><br>
+        <input type="text" name="quartier" placeholder="">
+        <br>
+        <label for="message">Message *</label><br>
+        <textarea name="message" placeholder="Ecris ton message ici !" id="boxMessage" maxlength='1000' rows="10" cols="50" required></textarea>
+        <br>
+        <button type="submit" id="btn-envoyer">Envoyer</button>
+    </form>
+    <footer class="b2">
+        Développé par Yann Legendre
+    </footer>
+</body>
+</html>

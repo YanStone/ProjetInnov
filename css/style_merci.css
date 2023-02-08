@@ -1,0 +1,18 @@
+a {
+    color: #6a7436;
+    border: 1px solid;
+    padding: 5px 25px;
+    border-radius: 30px;
+    font-style: italic;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+a:hover {
+    border: 4px solid;
+    font-weight:600;    
+}
+
+#espace {
+    margin-bottom: 100px;
+}

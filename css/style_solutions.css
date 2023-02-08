@@ -1,0 +1,292 @@
+/* @font-face { 
+    font-family: 'Amatic_SC';
+    src: url('AmaticSC-Regular.ttf'); 
+    font-weight: normal;
+    font-style: normal;
+}  */
+
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Caveat+Brush&display=swap');
+
+@font-face {
+    font-family:Amatic;
+    src: url("fonts/AmaticSC-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family:Graceland;
+    src: url("fonts/Graceland.otf") format("opentype");
+}
+
+body {
+    /* font-family: 'Yanone Kaffeesatz'; */
+    font-family: 'Caveat Brush';
+    font-size: 35px;
+    background-color:#fbf7df;       
+                color: #6a7436;         
+}
+
+#navbar {
+    position:fixed;
+    top: 44px;
+    left: 10px;
+    margin: none;
+    /* border-right: 2px solid #969c69; */
+    padding-right: 5px;
+
+}
+
+#navbar li {
+    margin: 10px 0;
+    list-style:none;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #6a7436;
+}
+
+#navbar .active {
+    opacity: 1;
+}
+
+#navbar .passive {
+    opacity: 0.7;
+}
+
+#navbar .passive:hover {
+    opacity: 1.0;
+    font-weight:600;
+}
+
+p, h1, h2, h3 {
+    margin: 50px 10%;
+}
+
+h1, h2, h3 {
+    /* font-family: Amatic; */
+    font-family:Amatic;
+
+}
+
+p {
+    text-indent: 2.5em;
+}
+
+li {
+    margin: 0 10%;
+}
+
+ul {
+    margin: 20px 0;
+}
+
+.ul_text {
+    display: block;
+    margin: 0 10%;
+}
+
+.ul_text li {
+    margin: 0 0;
+}
+
+#listeNum {
+    list-style:decimal;
+    margin-left: 13%;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight:bold;
+}
+
+h2 {
+    font-size: 60px;
+    font-weight: bolder;
+    margin-top: 80px;
+}
+
+.sources {
+    background-color: #EDFF91;
+    margin: 50px 10%;
+    padding: 30px 30px;
+    border-radius: 20px;
+    word-wrap: break-word;
+}
+
+.sources a:hover {
+    font-weight: 600;
+}
+
+.lienImg {
+    display: inline-block;
+    margin: 30px 10px;
+    padding: 10px 10px;
+    max-width: 90%;
+    font-size: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.lienImg a {
+    color: #6a7436;
+    word-wrap: break-word;
+}
+
+.cadreLien {
+    text-align: center;
+    margin: 0 8%;
+}
+
+.sources a {
+    color: #6a7436;
+}
+
+img {
+    border-radius: 20px;
+    margin: auto 50px;
+
+}
+
+#img_panneaux {
+    width: 50%;
+}
+
+#img_prix_panneaux {
+    width:500px;
+}
+
+.imgEolienne {
+    height: 300px;
+}
+
+.imgTurbine {
+    height: 250px;
+}
+
+#imgMicro {
+    width: 500px;
+}
+
+#imgEtapesMicro {
+    width: 400px;
+    border-radius: 0px;
+}
+
+.divImg {
+    /* display: flex;
+    justify-content: center;
+    gap: 50px; */
+    text-align: center;
+    margin: 0 8%;
+}
+
+.barre {
+    border-top: 1px solid #6a7436;
+    border-style: dotted;
+    margin: 100px 20%;
+    height: 1px;
+}
+
+footer {
+    margin: 100px 10% 25px 10%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-top: 1px dotted #6a7436;
+    font-size: 25px;
+    text-align: center;
+    opacity: 0.7;
+}
+
+/* transitions */
+
+
+.b {
+    transform: translateY(30px);
+    opacity: 0;
+    transition: all 0.7s;
+}
+
+.b2 {
+    transform: translateY(30px);
+    opacity: 0;
+    transition: all 0.7s;
+}
+
+.top {
+    transform: translateY(-30px);
+    opacity: 0;
+    transition: all 0.7s;
+}
+
+.normal {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.normal07 {
+    transform: translateY(0px);
+    opacity: 0.7;
+}
+
+
+/* responsive */
+
+@media screen and (max-width: 1185px) {
+body {
+    font-size: 30px;
+}
+
+    h1 {
+        margin:0;
+    }
+
+    #navbar {
+        position:initial;
+        top:none;
+        left: none;
+        margin:10px 12%;
+        display: flex;
+        justify-content: center;
+        border-bottom: 2px solid #6a7436;
+        border-right: none;
+        padding-right: none;
+    }
+
+    ul {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .divImg {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    h1 {
+        text-align: center;
+    }
+
+    .imgTurbine {
+        height:180px;
+    }
+
+    #imgMicro {
+        width: 70%;
+    }
+
+    #imgEtapesMicro {
+        width: 300px;
+    }
+
+    #img_prix_panneaux {
+        width:300px;
+    }
+
+    #img_panneaux {
+        width: 70%;
+    }
+
+}
