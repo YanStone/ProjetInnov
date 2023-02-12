@@ -24,7 +24,11 @@ body {
     font-family: 'Caveat Brush';
     font-size: 35px;
     background-color:#fbf7df;       
-                color: #6a7436;         
+    color: #6a7436;       
+}
+
+.b {
+    border: 2px solid black;
 }
 
 #navbar {
@@ -297,7 +301,7 @@ body {
     }
 
     .imgTurbine {
-        height:180px;
+        height: 150px;
     }
 
     #imgMicro {
