@@ -10,6 +10,13 @@ input, textarea {
     margin-top: 3px;
     resize: vertical;
     /* background-color:#fbf7df;    */
+    border:1px solid #6a7436;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+textarea {
+    font-family: 'Caveat Brush';
 }
 
 input {
