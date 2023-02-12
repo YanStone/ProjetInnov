@@ -27,10 +27,6 @@ body {
     color: #6a7436;       
 }
 
-.b {
-    border: 2px solid black;
-}
-
 #navbar {
     position:fixed;
     top: 44px;
@@ -283,6 +279,7 @@ body {
         border-bottom: 2px solid #6a7436;
         border-right: none;
         padding-right: none;
+        font-size: 25px;
     }
 
     ul {
