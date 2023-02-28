@@ -27,6 +27,7 @@ const topElements = document.querySelectorAll('.top');
 topElements.forEach((el) => observer.observe(el));
 
 const bottomElements = document.querySelectorAll('.b');
+console.log(topElements)
 bottomElements.forEach((el) => observer.observe(el));
 
 const bottom2Elements = document.querySelectorAll('.b2');
